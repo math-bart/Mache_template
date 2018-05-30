@@ -18,7 +18,7 @@
 		<nav>
 			<h1><span>///</span>MACHE</h1>
 			<ul>
-				<li><a href="#" data-toggle="modal" data-target="#contact" data-backdrop="false">Contact</a></li>
+				<li><a data-toggle="modal" data-target="#contact" data-backdrop="false">Contact</a></li>
 				<li><a href="index.html #prices">Prices</a></li>
 				<li><a href="index.html #services">Our Services</a></li>
 				<li><a href="index.html #about">About Us</a></li>
@@ -34,12 +34,9 @@
 				<div class="line line-center">
 				</div>
 				<div class="elegant">
-				<p>Elegant and free css template, witch you can download and use for free!</p>
-				<p>You can easly modify the design to make it your own and help you get your project running faster.</p>
+					<p>Elegant and free css template, witch you can download and use for free!</p>
+					<p>You can easly modify the design to make it your own and help you get your project running faster.</p>
 				</div>
-				<!--<div class="button"><a href="#aditional">
-				SHOW MORE
-				</a></div>	-->
 			</div>
 		</div>
 		<div class="parallelogram">
@@ -49,10 +46,12 @@
 		<div class="modal-dialog md-contact" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
 					<h4 class="modal-title" id="myModalLabel">Send Us a message</h4>
 				</div>
-				<div class="modal-body">
+				<div class="modal-body" id="body-contact">
 					<form>
 						<div class="form-group">
 							<label for="exampleInputEmail">Email</label>
@@ -66,20 +65,8 @@
 							<label for="exampleInputMessage">Message</label>
 							<textarea class="form-control" rows="5" placeholder="Message..."></textarea>
 						</div>
-						<button type="submit" class="btn btn-default" data-toggle="modal" data-target="#submit-contact" data-backdrop="false" data-dismiss="modal">Submit</button>
+						<button id="submit-contact" type="submit" class="btn btn-default" data-toggle="modal"  data-backdrop="false">Submit</button>
 					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="modal fade" id="submit-contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h4 class="modal-title" id="myModalLabel">Thank you for Tour message! We anser as soon as it's possible</h4>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div>
@@ -321,5 +308,6 @@
 	<!-- Scripts --> 
     <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>

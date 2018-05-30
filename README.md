@@ -1,1 +1,1 @@
-Mój pierwszy template wykonany z użyciem Html i Css
+Mój pierwszy template wykonany z użyciem Html i Css, zmodyfikowany po zastosowaniu Bootstrap

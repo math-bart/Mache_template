@@ -35,37 +35,37 @@ $('a[href*="#"]')
   });
   
 $(function(){
- $('.submit-join').click(function() {
-	$('#join-us-1').html('<h2>DONE!</h2><h5>We will soon call back to You!</h5>');
- });
+  $('.submit-join').click(function() {
+    $('#join-us-1').html('<h2>DONE!</h2><h5>We will soon call back to You!</h5>');
+  });
 });
 
 $(function(){
- $('#submit-prices-s').click(function() {
-	$('#body-prices-s').html('<h2>DONE!</h2><h5>Thank you for choose us! Transaction details was send to Your e-mail</h5>');
- });
+  $('#submit-prices-s').click(function() {
+    $('#body-prices-s').html('<h2>DONE!</h2><h5>Thank you for choose us! Transaction details was send to Your e-mail</h5>');
+  });
 });
 
 $(function(){
- $('#submit-prices-b').click(function() {
-	$('#body-prices-b').html('<h2>DONE!</h2><h5>Thank you for choose us! Transaction details was send to Your e-mail</h5>');
- });
+  $('#submit-prices-b').click(function() {
+    $('#body-prices-b').html('<h2>DONE!</h2><h5>Thank you for choose us! Transaction details was send to Your e-mail</h5>');
+  });
 });
 
 $(function(){
- $('#submit-prices-p').click(function() {
-	$('#body-prices-p').html('<h2>DONE!</h2><h5>Thank you for choose us! Transaction details was send to Your e-mail</h5>');
- });
+  $('#submit-prices-p').click(function() {
+    $('#body-prices-p').html('<h2>DONE!</h2><h5>Thank you for choose us! Transaction details was send to Your e-mail</h5>');
+  });
 });
 
 $(function(){
- $('#submit-prices-u').click(function() {
-	$('#body-prices-u').html('<h2>DONE!</h2><h5>Thank you for choose us! Transaction details was send to Your e-mail</h5>');
- });
+  $('#submit-prices-u').click(function() {
+    $('#body-prices-u').html('<h2>DONE!</h2><h5>Thank you for choose us! Transaction details was send to Your e-mail</h5>');
+  });
 });
 
 $(function(){
- $('#submit-contact').click(function() {
-	$('#body-contact').html("<h2>DONE!</h2><h5>Thank you for Tour message! We anserw as soon as it's possible</h5>");
- });
+  $('#submit-contact').click(function() {
+    $('#body-contact').html("<h2>DONE!</h2><h5>Thank you for Tour message! We anserw as soon as it's possible</h5>");
+  });
 });
